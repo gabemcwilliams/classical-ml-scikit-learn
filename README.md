@@ -122,16 +122,6 @@ real-world datasets and common machine learning techniques.
 - `pandas`: Data manipulation and analysis.
 - `joblib`: Used to save and load machine learning models.
 
-## Getting Started
-
-To get started, clone this repository and install the required dependencies using:
-
-```bash
-git clone https://github.com/gabemcwilliams/classical-ml-scikit-learn.git
-cd classical-ml-scikit-learn
-pip install -r requirements.txt
-```
-
 ## Learning Resources
 
 - [Python for Machine Learning & Data Science Masterclass – Jose Portilla (Udemy)](https://www.udemy.com/course/python-for-machine-learning-data-science-masterclass)
