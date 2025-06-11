@@ -1,122 +1,61 @@
 # Classical Machine Learning with Scikit-learn
 
-This repository contains various classical machine learning workflows implemented using `scikit-learn`. It covers tasks
-such as clustering, dimensionality reduction, regression, and more. Each notebook demonstrates practical examples using
-real-world datasets and common machine learning techniques.
+This repository contains various classical machine learning workflows implemented using `scikit-learn`. It covers tasks such as clustering, dimensionality reduction, regression, and more. Each notebook demonstrates practical examples using real-world datasets and common machine learning techniques.
 
 ## Notebooks
 
-### 1. **DBSCAN Clustering Example**
+### 1. DBSCAN Clustering Example
 
-- **Description**: This notebook demonstrates the use of the DBSCAN (Density-Based Spatial Clustering of Applications
-  with Noise) algorithm to identify clusters in data, including handling outliers.
+- **Description**: Demonstrates the DBSCAN (Density-Based Spatial Clustering of Applications with Noise) algorithm to identify clusters in data, including handling outliers.
 - **Key Topics**:
-    - DBSCAN algorithm and tuning epsilon
-    - Visualizing clusters with scatter plots
-    - Outlier detection
+  - DBSCAN algorithm and tuning epsilon
+  - Visualizing clusters with scatter plots
+  - Outlier detection
 
-### 2. **K-Means Clustering**
+### 2. K-Means Clustering
 
-- **Description**: This notebook covers the K-Means algorithm for clustering, including using different values of `k` to
-  find optimal cluster numbers.
+- **Description**: Covers the K-Means algorithm for clustering, including using different values of `k` to find the optimal number of clusters.
 - **Key Topics**:
-    - K-Means clustering
-    - Elbow method to find optimal number of clusters
-    - Visualizing clusters
+  - K-Means clustering
+  - Elbow method to find optimal number of clusters
+  - Visualizing clusters
 
-### 3. **PCA (Principal Component Analysis) for Dimensionality Reduction**
+### 3. PCA (Principal Component Analysis) for Dimensionality Reduction
 
-- **Description**: A tutorial on PCA for reducing the dimensionality of datasets while retaining the most important
-  features.
+- **Description**: A tutorial on PCA for reducing the dimensionality of datasets while retaining the most important features.
 - **Key Topics**:
-    - Data preprocessing and scaling
-    - Applying PCA for dimensionality reduction
-    - Visualizing transformed data in lower dimensions
+  - Data preprocessing and scaling
+  - Applying PCA for dimensionality reduction
+  - Visualizing transformed data in lower dimensions
 
-### 4. **Random Forest Regression**
+### 4. Random Forest Regression
 
-- **Description**: This notebook demonstrates the use of Random Forest Regression to predict continuous values (e.g.,
-  predicting sales based on advertising data).
+- **Description**: Demonstrates the use of Random Forest Regression to predict continuous values (e.g., predicting sales based on advertising data).
 - **Key Topics**:
-    - Train/validation/split of data
-    - Feature scaling
-    - Model training and evaluation metrics (MAE, RMSE)
-    - Saving and loading models with `joblib`
+  - Train/validation split of data
+  - Feature scaling
+  - Model training and evaluation metrics (MAE, RMSE)
+  - Saving and loading models with `joblib`
 
-### 5. **Hierarchical Clustering with Dendrogram**
+### 5. Hierarchical Clustering with Dendrogram
 
-- **Description**: Implements hierarchical clustering techniques using the agglomerative clustering algorithm and
-  visualizing the results with dendrograms.
+- **Description**: Implements hierarchical clustering techniques using the agglomerative clustering algorithm and visualizes the results with dendrograms.
 - **Key Topics**:
-    - Agglomerative hierarchical clustering (AHC)
-    - Dendrogram visualization
-    - Distance thresholding for flexible clustering
+  - Agglomerative hierarchical clustering (AHC)
+  - Dendrogram visualization
+  - Distance thresholding for flexible clustering
 
-### 6. **Linear Regression for Predicting Sales**
+### 6. Linear Regression for Predicting Sales
 
-- **Description**: A basic implementation of linear regression to predict a target variable (sales) from multiple
-  features (advertising spend).
+- **Description**: A basic implementation of linear regression to predict a target variable (e.g., sales) from multiple features (e.g., advertising spend).
 - **Key Topics**:
-    - Train/validation split
-    - Linear regression model
-    - Performance evaluation (R2, MAE, MSE)
-      =======
-- **Description**: This notebook demonstrates the use of the DBSCAN (Density-Based Spatial Clustering of Applications
-  with Noise) algorithm to identify clusters in data, including handling outliers.
-- **Key Topics**:
-    - DBSCAN algorithm and tuning epsilon
-    - Visualizing clusters with scatter plots
-    - Outlier detection
-
-### 2. **K-Means Clustering**
-
-- **Description**: This notebook covers the K-Means algorithm for clustering, including using different values of `k` to
-  find optimal cluster numbers.
-- **Key Topics**:
-    - K-Means clustering
-    - Elbow method to find optimal number of clusters
-    - Visualizing clusters
-
-### 3. **PCA (Principal Component Analysis) for Dimensionality Reduction**
-
-- **Description**: A tutorial on PCA for reducing the dimensionality of datasets while retaining the most important
-  features.
-- **Key Topics**:
-    - Data preprocessing and scaling
-    - Applying PCA for dimensionality reduction
-    - Visualizing transformed data in lower dimensions
-
-### 4. **Random Forest Regression**
-
-- **Description**: This notebook demonstrates the use of Random Forest Regression to predict continuous values (e.g.,
-  predicting sales based on advertising data).
-- **Key Topics**:
-    - Train/validation/split of data
-    - Feature scaling
-    - Model training and evaluation metrics (MAE, RMSE)
-    - Saving and loading models with `joblib`
-
-### 5. **Hierarchical Clustering with Dendrogram**
-
-- **Description**: Implements hierarchical clustering techniques using the agglomerative clustering algorithm and
-  visualizing the results with dendrograms.
-- **Key Topics**:
-    - Agglomerative hierarchical clustering (AHC)
-    - Dendrogram visualization
-    - Distance thresholding for flexible clustering
-
-### 6. **Linear Regression for Predicting Sales**
-
-- **Description**: A basic implementation of linear regression to predict a target variable (sales) from multiple
-  features (advertising spend).
-- **Key Topics**:
-    - Train/validation split
-    - Linear regression model
-    - Performance evaluation (R2, MAE, MSE)
+  - Train/validation split
+  - Linear regression model
+  - Performance evaluation (R², MAE, MSE)
 
 ## Key Libraries
 
-- `scikit-learn`: The main library used for building and evaluating machine learning models.
+- `scikit-learn`: Main library used for building and evaluating machine learning models.
 - `numpy`: Numerical computing and data manipulation.
 - `matplotlib` and `seaborn`: Visualization tools for plotting graphs and distributions.
 - `pandas`: Data manipulation and analysis.
